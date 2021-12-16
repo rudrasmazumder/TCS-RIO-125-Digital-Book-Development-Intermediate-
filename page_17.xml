@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[processing load. Applications written on top of Odin can be both reactive, and proactive. Reactive applications use a pub-sub mechanism to receive notifications for specific MAC layer events that they can subscribe to. Proactive applications merely run within a loop, cycling between sleeping and doing some work. The flow diagram for the communication between ODIN master and ODIN agent is shown below in Figure 9.20.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_20.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.20: Flow Diagram for Communication between ODIN Master and ODIN Agent]]></pText>
+    </PageText>
+    
+    <SubHeading><![CDATA[	<b>9.12.2. Ubi-Flow</b>]></SubHeading>
+   <PageText>
+      <pText><![CDATA[Ubi-Flow is the first software-defined IoT system for ubiquitous flow control and mobility management in urban heterogeneous networks. To achieve light-weight processing in IoT devices, in UbiFlow all jobs related to mobility management, handover optimization, access point selection and flow scheduling are executed by the coordination of distributed controllers. Specifically, UbiFlow adopts multiple controllers to divide an urban-scale SDN into different geographic partitions to achieve distributed control of IoT flows. A distributed hashing based overlay structure is proposed to maintain network scalability and consistency. Based on this UbiFlow overlay structure, relevant issues in mobility management such as scalable control, fault tolerance and load balancing have been carefully taken care of. The UbiFlow controller differentiates flow scheduling based on per-device requirements as well as whole-partition capabilities. Flow scheduling comprises of network partition, network matching and load balancing. Therefore, it can present a network status view for the optimized selection of access points in multi networks to satisfy flow requests, while guaranteeing the network performance in each partition. Figure 9.21 shows the architecture of Ubi-Flow.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[The key contributions of UbiFlow are:]]></pText>
+      </PageText>
+      <PageText><pText><![CDATA[ <ul class="ListClassDisc">
+<li>A novel overlay structure to achieve mobility management and fault tolerance in software-defined IoT.</li>
+</ul>]]></pText> 
+      </PageData>
+</main>

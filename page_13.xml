@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+   <SubHeading><![CDATA[<b>Sensor OpenFlow</b>]]></SubHeading
+   <PageText>
+      <pText><![CDATA[One solution is the Sensor OpenFlow protocol. This protocol takes care of data forwarding in two different ways. One is the value-centric data forwarding which forwards the sensed data, if it exceeds a certain value. The other one is the in-centric data forwarding which forwards the sensed data based on the ID of the source node. Real life implementation of such a method is not available. It still exists in its infant stage.]]></pText>
+    </PageText>
+    <SubHeading><![CDATA[<b>Soft-WSN</b>]]></SubHeading
+
+   <PageText>
+      <pText><![CDATA[Soft-WSN is another protocol for sensor device management and topology management. The sensor device management comprises of a) sensor management b) delay management and c) active-sleep management. In sensor management, multiple sensors can be implemented in a single board and sensors can be used depending on application-specific requirements. In delay management, delay for sensing can be changed dynamically in real-time. In active-sleep management, the status of active and sleep mode can be changed dynamically.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[Topology management comprises of (a) node-specific management and (b) network- specific management. In node-specific management, forwarding logic of a particular sensor can be modified. Network-specific management decides whether to forward all traffic of a node in the network or to drop all traffic of a node in the network.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[The network performance can be improved using software defined WSN over traditional WSN. Packet delivery ratio in the network increases and number of replicated data packets is reduced using Soft-WSN compared to the traditional WSN. The number of control messages in the network is higher using Soft-WSN over the traditional WSN. This is due to the PACKET-IN message in the network. Each time a node receives a new packet, it asks the Controller for getting adequate forwarding logic.]]></pText>
+    </PageText>
+       <SubHeading><![CDATA[<b>SDN-WISE</b>]]></SubHeading
+    <PageText>
+      <pText><![CDATA[A third protocol is SDN-WISE. SDN-WISE proposes a Software Defined Networking platform for WSN. Flow-Table for the Rule Placement is available at sensor nodes. Any programming language can be used through API to program the nodes in real-time. In SDN- WISE, the sensor node includes IEEE 802.15.4 protocol, Micro Control Unit (MCU) and IEEE 802.15.4 stack over which the SDN-WISE really functions. Forwarding layer consists of Flow Rules and In Network Packet Processing (INPP) process the packets in SDN-WISE.]]></pText>
+    </PageText>
+    
+    <SubHeading><![CDATA[<b>9.11. SDN for Mobile Networking</b>]]></SubHeading
+    
+    <PageText>
+      <pText><![CDATA[Meeting current market requirements is virtually impossible with traditional network architectures. Faced with flat or reduced budgets,enterprise IT departments are trying to squeeze the most from their networks using device-level management tools and manual processes. Carriers face similar challenges as demand for mobility and bandwidth explodes .Profits are being reduced by escalating capital equipment costs and flat or declining revenue]]></pText>
+    </PageText>
+   
+      </PageData>
+</main>

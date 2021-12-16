@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_8.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.8: Hierarchical (Tree) Architecture for Controller Placement]]></pText>
+    </PageText> 
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_9.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.9: Ring Architecture for Controller Placement]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Figure 9.10 shows the Mesh architecture for Controller Placement. Mesh architecture increases reliability and fault-tolerance. For example we can see two switches connected to the same controller. Even if a switch goes down, the other switch can take care of it.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_10.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.10: Mesh Architecture for Controller Placement]]></pText>
+    </PageText>
+      </PageData>
+</main>

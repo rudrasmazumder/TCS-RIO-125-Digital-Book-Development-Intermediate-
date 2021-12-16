@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[The Flow Tables are stored at the switches. Flow Tables are stored in a specialized memory known as Ternary Content Addressable (TCAM) memory. The size of TCAM memory is limited and hence only a limited number of rules can be inserted. TCAM memories can do the processing very faster and that is why this memory is used at the switches. TCAM is very expensive also.]]></pText></PageText>
+      <PageText>
+      <pText><![CDATA[When a request is received for which no Flow Rule is present in the Flow Table, the switch send a PACKET-IN message to the controller. The controller then decides a suitable Flow Rule for the request and sends back to the switch. It is then inserted into the Flow Table. Whenever there is a new rule insertion, there will be a delay of 3-5 ms delay.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[It is a challenging task to define or place the rules at switches while considering available TCAM. This is because TCAM is small and expensive and not easy to scale. Another challenge is how to define rules, so that less number of PACKET_IN messages is sent to the controller.]]></pText>
+    </PageText>
+       <SubHeading><![CDATA[<b>	9.6. OpenFlow Protocol</b>]]></SubHeading> 
+	 <PageText>
+      <pText><![CDATA[OpenFlow protocol is the only one protocol that is available for rule placement. It has different versions like 1.0, 1.1, 1.2, 1.3 etc. to have different number of match fields. Different match fields include source IP, destination IP, source port, priority etc. One of the issues with OpenFlow protocol is how long a Flow Rule is to be kept at the switch. For addressing this issue, two strategies are used. The first one is the hard timeout and the other one is the soft timeout. In hard timeout, all the Flow Rules are deleted from the switch. This can be used to reset the switch. In a soft timeout, if no Flow is received associated with a Rule, then the Rule is deleted. This is used to empty the Rule space by deleting an unused Rule.]]></pText>
+    </PageText>
+   <PageText>
+      <pText><![CDATA[SDN and OpenFlow is not the same. SDN is a technology or concept while OpenFlow is a protocol used to communicate between data plane and control plane. We may have other protocols for this purpose. However, OpenFlow is the only protocol present today. There are various softwares associated with OpenFlow implementation. Some of them are given below.]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<PageText><pText><![CDATA[ <ul class="ListClassDisc">
+<li>Indigo – Indigo is an open source project aimed at enabling support for OpenFlow on physical and hypervisor switches.</li>
+<li>LINC – LINC is a pure OpenFlow software switch. It gives a lot of flexibility and allows quick development and testing of new OpenFlow features. It supports OpenFlow protocol 1.2, OpenFlow protocol 1.3 and OpenFlow protocol 1.4. It has a modular architecture which is easily extensible.</li>
+<li>Pantou – Pantou turns a commercial wireless router or access point to an OpenFlow- enabled switch. OpenFlow is implemented as an application on top of OpenWrt. Pantou is based on the BackFire OpenWrt release (Linux 2.6.32)</li>
+<li>Of13softswitch – This is an OpenFlow 1.3 compatible user-space software switch implementation. The code is based on the Ericsson TrafficLab 1.1 softswitch implementation, with changes in the forwarding plane to support OpenFlow 1.3.</li>
+</ul>]]></pText> 
+   </PageText>]]>
+      </PageData>
+</main>
+
+ .

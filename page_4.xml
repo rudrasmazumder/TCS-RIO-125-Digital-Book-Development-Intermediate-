@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[that creating standard application programming interfaces (APIs) between the control and data planes would result in increased competition. The use of open source software in split control/data plane architectures traces its roots to the Ethane project at Stanford’s computer sciences department. Ethane’s simple switch design led to the creation of OpenFlow. An API for OpenFlow was first created in 2008. That same year witnessed the creation of NOX—an operating system for networks. Work on OpenFlow continued at Stanford, including with the creation of testbeds evaluating use of the protocol in a single campus network, as well as across the WAN as a backbone for connecting multiple campuses.]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[Beyond academia, the first deployments were by Nicira in 2010. The Open Networking Foundation was founded in 2011 to promote SDN and OpenFlow.]]></pText>
+    </PageText>
+      <SubHeading><![CDATA[	<b>9.4. SDN Architecture</b>]]></SubHeading>
+      
+      <PageText>
+      <pText><![CDATA[Software Defined networking (SDN) is an approach to using open protocols, such as OpenFlow, to apply globally aware software control at the edges of the network to access network switches and routers that typically would use closed and proprietary firmware. SDN is meant to address the fact that the static architecture of traditional networks is decentralized and complex while current networks require more flexibility and easy troubleshooting. SDN suggests centralizing network intelligence in one network component by disassociating the forwarding process of network packets (Data Plane) from the routing process (Control plane). The control plane consists of one or more controllers which are considered as the brain of SDN network where the whole intelligence is incorporated. Figure 9.5 shows the architecture of SDN.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_5.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.5: Architecture of SDN]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[The components or attributes of SDN are hardware switches, controller, applications, flow-rules and Application Programming Interfaces (API). The basic concept of SDN is to ]]></pText>
+    </PageText>
+  </PageData>
+</main>
+
+
+
+
+	

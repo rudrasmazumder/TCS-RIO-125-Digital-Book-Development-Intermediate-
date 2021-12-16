@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[separate control logic from hardware switches. The control logic is defined in a centralized manner and controls the entire network including the switches. Communication between the application, control and data planes are done through APIs.]]></pText></PageText>
+      <SubHeading><![CDATA[	<b>9.5. Rule Placement</b>]]></SubHeading>
+	 <PageText>
+      <pText><![CDATA[The Data plane contains various switches for forwarding. The Control plane contains the network operating system. At the top is the application plane which performs various functionalities like security, routing, traffic engineering and other applications. The concept of SDN is made possible through Network Function Virtualization. The interface between Application plane and Control plane is known as Northbound API whereas the interface between Control plane and Data plane is known as Southbound API. The protocol that supports Southbound API is the OpenFlow protocol. East-Westbound APIs are used to communicate among multiple controllers in the control layer.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[The current status of SDN shows that companies such as Google have started to implement SDN at their data center networks. The current networks could be replaced with SDN in a phased manner. With SDN, operational cost and delay caused due to link failure can be significantly minimized. The two main challenges in the implementation of SDN are
+(a) rule placement (b) controller placement.
+]]></pText>
+    </PageText>
+       <PageText>
+      <pText><![CDATA[Switches forward traffic based on a rule called “Flow Rule”. This is defined by the centralized controller. In the traditional network, there will be a routing table at every switch or router. Here in SDN, a Flow Table is maintained at every switch. Each entry in the Flow Table  is the Flow Rule. Each Rule has a specific format, which is defined by a protocol. In SDN, it is OpenFlow protocol. Figure 9.6 shows an example for Flow Rules based on OpenFlow protocol.]]></pText>
+    </PageText>
+       <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_6.png"></div>]]></pText>
+    </PageText>
+      
+       <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.6: Example for Flow Rules based on OpenFlow Protocol]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[Consider the first row of the Flow Table. When a packet arrives at a router, it will check for the priority. If the priority matches, the values for Ingress port, MAC source address, MAC destination can be anything because it is a wildcard. If the protocol is TCP, IP destination is 10.1.1.20/32 and destination port is 60, then the instruction is “Forward to port 1”. Likewise other rows (Flow Rules) of the Flow Tables are used for routing.]]></pText>
+    </PageText>
+      </PageData>
+</main>
+
+ .

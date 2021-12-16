@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+   <SubHeading><![CDATA[]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[to communicate with controller. ODIN is an SDN framework programmable enterprise WLANs. It provides a platform for developing typical enterprise WLAN services such as mobility managers, and load balancers as “network applications”. Two components are present
+– an ODIN agent and ODIN master. ODIN agent is placed with the physical devices and ODIN master is placed at the Controller end. Figure 9.19 shows the architecture of ODIN.]]></pText>
+    </PageText>
+    
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_19.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.19: Architecture of ODIN]]></pText>
+    </PageText> 
+    <PageText>
+      <pText><![CDATA[Odin’s architecture comprises of a single master and a set of agents that run on the (Access Points) APs. The master is implemented as an OpenFlow application on top of the Controller. The agents are implemented and run on the APs. The APs run Open vSwitch so that OpenFlow rules can be installed at each AP as well. Every Light Virtual Access Point (LVAP) has a set of OpenFlow rules attached to it, which enable faster mobility and can potentially be used to do access control as well.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[An LVAP is basically a per-client, virtual AP. Every time a client performs a probe scan, a central controller spawns an LVAP on a physical AP close to the client. The LVAP is what responds to the client’s probe scan with a probe response. The client can then continue the regular 802.11 association handshake with the LVAP. Once this is done, an association is formed between a client device capable of mobility and an LVAP. At this point, the client is only concerned with getting ACKs for the data frames it generates and receiving beacons from its LVAP in a timely fashion. Just like virtual machines in a data center can be migrated to a different physical server, an LVAP can be migrated to another physical AP. If an LVAP is migrated to another physical AP fast enough such that it retains all the necessary state to maintain its associations and the client continues to receive ACKs and beacon frames, then the client can continue transmitting data frames without having to perform a re-association. Thus, an LVAP migration gives the effect of a handoff, without actually inducing a state machine change at the client and if this is done fast enough, the client won’t even notice any period of disconnectivity.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[Odin applications run atop the master, and control the placement of LVAPs. For instance, a mobility manager would attempt to place the LVAPs as close to the client as possible, and a load balancer would move LVAPs between physical APs such that the APs have an even]]></pText>
+    </PageText>
+      </PageData>
+</main>

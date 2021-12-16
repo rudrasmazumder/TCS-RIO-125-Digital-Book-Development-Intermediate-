@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[There are devices S1 and M1 connected to one Access Point (AP) and another two devices P1 and M2 connected to another Base Station (BS). The corresponding Flow Tables are also available. Imagine that the device P1 and M1 has interchanged its position. So a new Flow Rules need to be added in the respective Flow Tables. But the memory of Flow Tables is restricted. In Mobi-Flow, a proactive Rule Placement takes place depending on user’s movement in the network. The approach is to predict the location of end users at (t+1) time, while the users are at (t) time. Mobi-Flow place Flow Rules at the Access Points (APs) which can be associated to the users based on their predicted locations.]]></pText></PageText>
+      <PageText>
+      <pText><![CDATA[For location prediction, it uses Order-K Markov predictor which takes Kth location instances to predict the next location. For Flow Rule Placement, linear programming is used to select optimal Access Point (AP). Control message overhead and energy consumption can be minimized significantly using Mobi-Flow compared to the conventional Flow Rule placement schemes.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Anomalies can be monitored through OpenFlow. This can be done by monitoring each Flow in the network. It is also possible to collect the port statistics of the switches. If there is any anomaly, it may generate large number of packets in the network which leads to network congestion.]]></pText>
+    </PageText>
+     <SubHeading><![CDATA[	<b>9.13. Conclusion</b>]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[This Chapter explains Software Defined Networking in detail. Limitations of current network, origin of SDN, SDN architecture, Rule Placement, OpenFlow protocol and Controller Placement are well explained. Security in SDN, integrating SDN in IoT, Software Defined WSN and SDN for mobile networking is described. Finally Rule Placement approaches at access devices including ODIN, Ubi-Flow and Mobi-Flow are clearly illustrated.]]></pText>
+    </PageText>
+      
+      </PageData>
+</main>

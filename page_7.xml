@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[<PageText><pText><![CDATA[ <ul class="ListClassDisc">
+<li>Open vSwitch – This is an open source software which is the most popular one which is present today for SDN implementation.</li>
+</ul>]]></pText> 
+   </PageText>]]>
+   <SubHeading><![CDATA[<b>9.7. Controller Placement</b>]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[Controllers define Flow Rules according to the application specific requirements. Control logic is taken care by the Control plane. The controller knows what has to be done with a particular Flow. The controllers must be able to handle all the incoming requests from the switches. Rules should be placed without incurring much delay. Typically, a controller can handle 200 requests in a second through a single thread. Currently multi-threaded applications are also possible in controllers]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[The controllers are logically connected to the switches in one-hop distance. The switch thinks that controller is just a hop away from it. Physically, they are connected to the switches in multi-hop distance. If we have a very small number of controllers for a large network, the network might be congested with control packets i.e. PACKET-IN messages. Various architectures for Controller Placement are Flat architecture, Hierarchical (Tree) architecture, Ring architecture and Mesh architecture. Figure 9.7 shows a Flat architecture for Controller Placement.]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_7.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.7: Flat architecture for Controller Placement]]></pText>
+    </PageText> 
+    <PageText>
+      <pText><![CDATA[In Flat architecture, the Controller is logically one hop away from the switch. The switch sends the PACKET-IN message to the controller, if the Flow Rule for the particular Flow that it has received is not in the Flow Table. The Controller sends back the new Flow Rule to the switch. Figure 9.8 shows the Hierarchical (Tree) architecture for Controller Placement]]></pText>
+      </PageText>
+      <PageText>
+      <pText><![CDATA[In a Hierarchical architecture, the controllers and switches are arranged like a tree structure. Figure 9.9 shows the Ring architecture for Controller Placement. In a Ring architecture, multiple controllers are arranged in a ring fashion. But a particular switch is connected to only one controller. A PACKET-IN message will be sent to a single Controller only and the Controller sends back the Flow Rule to that particular switch.]]></pText>
+    </PageText>
+      </PageData>
+</main>

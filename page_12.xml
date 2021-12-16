@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+   <SubHeading><![CDATA[]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_15.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.15: Rule Placement and Traffic Engineering at Backbone ]]></pText>
+    </PageText> 
+   <PageText>
+      <pText><![CDATA[Finally Flow classification and enhanced security at data center networks is done at packet gateways or data center networks as shown in Figure 9.16.]]></pText>
+    </PageText>
+    
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_16.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.16: Flow Classification and Enhanced Security at Packet Gateways]]></pText>
+    </PageText> 
+      <SubHeading><![CDATA[<b>	9.10. Software Defined WSN</b>]]></SubHeading
+    <PageText>
+      <pText><![CDATA[There are several challenges in WSNs. Real-time programming of sensor nodes is difficult. The sensor nodes and corresponding network follow vendor specific architecture. Each nodes made by different vendors have their own architecture and different layers implemented in them. Sensor nodes are resource-constrained i.e. heavy computations cannot be performed at the nodes. In addition, memory is also limited so that we cannot insert too many control programs. These challenges give the opportunity for the following.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[ <ul class="ListClassDisc">
+<li>Can we program the sensor nodes in real-time?</li>
+<li>Can we change the forwarding path in real-time</li>
+<li>Can we integrate different sensor nodes in a WSN?</li>
+</ul>]]></pText> 
+   </PageText>]]>
+   <PageText>
+      <pText><![CDATA[There are different solutions proposed for the above opportunities]]></pText>
+    </PageText> 
+      </PageData>
+</main>

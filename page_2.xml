@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[before it reaches its destination. The protocol used for switching is the Open Shortest Path First (OSPF) protocol. Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks. Each router knows to which router the packet needs to be sent based on the routing table it has. Each router doesn’t have a global view of the network as a whole.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Consider the situation where one of the routers or switches has been attacked as shown in Figure 9.2. The attacked switch will be down for one reason or another.]]></pText>
+    </PageText>
+       <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_2.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.2: One of the Switches is Attacked]]></pText>
+    </PageText>
+        <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.2: One of the Switches is Attacked]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[In a <span class="PageAudioClass" id="Audio_BTNID" url="en/Sound/Audio_1" headername="Audio">traditional network</span>, when a router is down, another route needs to be identified to transfer the packets. Since there is no centralized control over the routers this becomes a difficult task. So in a traditional network, when a switch is down, it can affect other switches also. Each router in a network has three layers comprising of hardware at the bottom layer, operating system running on top of the hardware and applications on the top most layer. The skeletal view of the traditional network with these layers is shown in Figure 9.3.]]></pText>
+    </PageText>
+       <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_3.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.3: Skeletal View of the Traditional Network with Three Layers]]></pText>
+    </PageText> 
+    <PageText>
+      <pText><![CDATA[There are several limitations in current network which is given below.]]></pText>
+    </PageText>
+      <PageText><pText><![CDATA[ <ul class="ListClassDisc">
+<li>Centralized control of the network is not feasible in traditional networks.</li>
+<li>Vendor-specific architecture of switches limits dynamic configuration according to application-specific requirements.</li>
+</ul>]]></pText> 
+   </PageText>
+ </PageData>
+</main>

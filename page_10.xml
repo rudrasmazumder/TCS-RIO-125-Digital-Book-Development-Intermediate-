@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+      <PageText>
+      <pText><![CDATA[<ol>
+  <li value="3">From (IDS1), it is sent to Proxy 1</li>
+  <li>Finally, it is sent from Proxy1 to the outside network.</li>
+  </ol>]]></pText>
+    </PageText>
+      <SubHeading><![CDATA[<b>	9.9. Integrating SDN in IoT</b>]]></SubHeading>
+      <PageText>
+      <pText><![CDATA[In this section we will see how SDN can be used with IoT.There are several benefits of integrating SDN with IoT.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<ol>
+  <li value="1">With SDN, intelligent routing decisions can be deployed.</li>
+  <li>Simplification of information collection, analysis and decision making.</li>
+  <li>Intelligent traffic pattern analysis and coordinated decisions.</li>
+  </ol>]]></pText>
+    </PageText>
+      <pText><![CDATA[Consider the use of SDN for IoT as shown in Figure 9.12. In this there are several IoT devices in different sub-networks. The data from these devices through mobile access channels or fixed access channels are collected and transmitted to the data aggregator. The data aggregation from various IoT devices takes place at the data aggregator and then it passes through a transport network. From there it goes to different gateways and the packet segregation is done at the packet gateways. When we integrate SDN with IoT, we are going to integrate SDN controller with various devices, performs better orchestration of various devices and protocols that are running. Overall it will improve the service logic.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_12.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.12: SDN for IoT]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[With the implementation of SDN, there is a centralized control of IoT devices like sensors, actuators, RFID tags etc. as shown in Figure 9.13. ]]></pText>
+    </PageText>
+  </PageData>
+</main>

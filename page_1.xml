@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[9.SOFTWARE DEFINED NETWORKING]]></MainHeading>
+    <SubHeading><![CDATA[	9.1. Introduction]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[<span class="PageVideoClass" id="Video_BTNID" url="en/Video/Video_1.mp4" headername"Video">>Software Defined Networking (SDN) </span>is for restructuring the current network infrastructure. SDN is an umbrella term encompassing several kinds of network technology aimed at making the network as agile and flexible as the virtualized server and storage infrastructure of the modern data center. The goal of SDN is to allow network engineers and administrators to respond quickly to changing business requirements. In an SDN, a network administrator can shape traffic from a centralized control console without having to touch individual switches, and can deliver services to wherever they are needed in the network, without regard to what specific devices a server or other hardware components are connected to. The key technologies for SDN implementation are functional separation, network virtualization and automation through programmability.]]></pText>
+    </PageText>
+        
+      <SubHeading><![CDATA[	9.2. Limitations of Current Network]]></SubHeading>
+      <PageText>
+      <pText><![CDATA[Consider the scenario of current day networks. For this we are taking the example of a wired network with L3 switches. Figure 9.1 shows the network topology of current network]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="BigImgClass"><img src="en/images/9_1.png"></div>]]></pText>
+    </PageText>
+         <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.1: Network Topology of Current Network</div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[The data needs to be send from user 1 to user 2 and vice versa as shown in Figure 9.1. The data can be sent through several routes. The packet traverses through multiple L3 switches]]></pText>
+    </PageText>
+  </PageData>
+</main>
+
+
+
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[<ul class="ListClassDisc"
+<li>Each switch may have different operating system. Switches are required to configure according to the installed operating system.</li>
+</ul>]]></pText> 
+    </PageText>
+      <PageText>
+      <pText><![CDATA[In a traditional network, each router or switch will be running thousands of lines of code. Each router may comprise of millions of logic gates contributing to 10 GB RAM approximately, cost expensive and running various kinds of application programs such as routing, mobility management etc. Each of the routers in traditional network has specialized packet forwarding hardware, different operating system and different applications for routing, mobility management etc. The goal of the Software Defined Networking is to overcome the limitations or challenges of traditional network.]]></pText>
+    </PageText>
+      <SubHeading><![CDATA[<b>	9.3. Origin of SDN</b>]]></SubHeading>
+      <PageText>
+      <pText><![CDATA[The concept of SDN is to separate the hardware from the operating system and application programs as shown in Figure 9.4.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_4.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.4: Concept of SDN]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[The history of <a href="en\Resource\File_1.pdf" class="SectionClass" target="_blank">SDN principles</a> can be traced back to the separation of the control and data plane first used in the public switched telephone network as a way to simplify provisioning and management well before this architecture began to be used in data networks. The Internet Engineering Task Force (IETF) began considering various ways to decouple the control and forwarding functions in a proposed interface standard published in 2004 appropriately named "Forwarding and Control Element Separation" (ForCES). The ForCES Working Group also proposed a companion SoftRouter Architecture. Additional early standards from the IETF that pursued separating control from data include the Linux Netlink as an IP Services Protocol and A Path Computation Element (PCE)-Based Architecture.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[These early attempts failed to gain traction for two reasons. One is that many in the Internet community viewed separating control from data to be risky, especially owing to the potential for a failure in the control plane. The second is that vendors were concerned ]]></pText>
+    </PageText>
+  </PageData>
+</main>
+
+

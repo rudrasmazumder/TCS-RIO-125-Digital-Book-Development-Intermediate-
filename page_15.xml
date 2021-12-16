@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+   <SubHeading><![CDATA[]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[Consider a traditional mobile network. When mobile equipment operates, it connects with a base station or access point for sending data back and forth. At the same time, the equipment may get affected by another access point which is known as interference. SDWMN tries to address the problem of interference with the help of SDN. In the above Figure, we can see an SDN controller and Virtualized Radio Resource Management Unit which takes care of interference. For example, the signals from eNodeB2 will not affect the signals eNodeB3 as shown in the Figure 9.17.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Mobile traffic management in Software Defined Wireless Mobile Network (SDWMN) is shown in Figure 9.18.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_18.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.18: Mobile Traffic Management in SDWMN]]></pText>
+    </PageText> 
+    <PageText>
+      <pText><![CDATA[In Figure 9.18, the Access Network Discovery and Service Function (ANDSF) takes care of the mobile traffic management in SDWMN. When a user moves, he can be first connected to WiFi and then to the cellular network 3G, 4G and so on the SDN enabled wireless networks takes care of the traffic management and connectivity.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[The key benefits of SDN in mobile networks are centralized control of devices manufactured by multiple vendors, higher rate of integration of new services and abstract network control and management which includes networks abstracted from the user.]]></pText>
+    </PageText>
+    <SubHeading><![CDATA[	<b>9.12. Rule Placement at Access Devices</b>]]></SubHeading>
+     <PageText>
+      <pText><![CDATA[The challenges in Rule Placement at access devices in mobile networks are General OpenFlow protocol is not supported by wireless network and a modified version of OpenFlow is required. Typically, users are mobile in nature and network is highly dynamic. Frequent changes in Rule Placement are also required. Another challenge is the presence of heterogeneous devices in the network and how to support such heterogeneous devices in a single platform. The approaches for Rule Placement at access devices are ODIN, Ubi-Flow and Mobi-Flow.]]></pText>
+    </PageText>
+    <SubHeading><![CDATA[	<b> 9.12.1. ODIN</b>]]></SubHeading>
+    
+     <PageText>
+      <pText><![CDATA[In Open Data centre with Interoperable Network (ODIN), an agent is placed at access points.]]></pText>
+    </PageText>
+      </PageData>
+</main>
+
+
+
+
+
+

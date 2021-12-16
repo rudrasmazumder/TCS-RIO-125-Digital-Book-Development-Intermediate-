@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[<PageText><pText><![CDATA[ <ul class="ListClassDisc">
+<li>A load balancing scheme for distributed controllers by analyzing the variations in flow traffic characteristics.</li>
+</ul>]]></pText> 
+   </PageText>
+   <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_21.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.21: Architecture of Ubi-Flow]]></pText>
+    </PageText> 
+    
+<SubHeading><![CDATA[<b>	9.12.3. Mobi-Flow</b>]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[Figure 9.22 shows the Mobi-Flow Rule Placement in Software Defined Internet of Things (SDIoT).]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_22.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.22: Mobi-Flow Rule Placement in SDIoT]]></pText>
+    </PageText> 
+      </PageData>
+</main>
+
+
+
+
+
+

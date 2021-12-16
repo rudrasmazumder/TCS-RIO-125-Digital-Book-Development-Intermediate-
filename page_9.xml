@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+   <SubHeading><![CDATA[]]></SubHeading>
+   <PageText>
+      <pText><![CDATA[The control mechanisms can be either distributed or centralized. In a distributed control mechanism, the control decisions can be taken in a distributed manner. For example, each sub-network is controlled by a different controller. In a centralized control mechanism, the control decisions are taken in a centralized manner. For example, a network is controlled by a single controller. If the primary controller is down, a backup controller takes up the duties of the primary controller to have uninterrupted network service.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[For experimenting with SDN, we need simulators or emulators. The emulators can be connected to the real network and can analyze the data. Simulators on the other hand, simulate the entire network including nodes and packet flows. The simulator or emulator takes care of infrastructure deployment and Controller Placement. Both must be supported with OpenFlow protocol. In Controller Placement, the controllers can be either remote or local. In a remote Controller, the Controller can be situated in a remote place and communicated using IP address and port number.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[For switch deployment, Mininet software based on Python language can be used. This software can be used to create a virtual network with OpenFlow enabled switches. It supports both remote and local controllers. Various softwares are available for Controller configuration like Pox, Nox, FloodLight, OpenDayLight and ONOS. Among these OpenDayLight and ONOS are two popularly used softwares for Controller configuration.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[Performance of SDN depends on Rule Placement and Controller Placement in the network. Control message overhead may be increased due to additional number of packets (PACKET-IN) messages. Unified network management is possible using SDN, while leveraging the global view of the network.]]></pText>
+    </PageText>
+       <SubHeading><![CDATA[<b>9.8. Security in SDN</b>]]></SubHeading
+    <PageText>
+      <pText><![CDATA[There is enhanced security while using SDN. The security is implemented using firewall, proxy, HTTP and Intrusion Detection System (IDS). Figure 9.11 shows a topology to implement security in SDN.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[<div class="BigImgClass" style="text-align:center"><img src="en/images/9_11.png"></div>]]></pText>
+    </PageText>
+      <PageText>
+      <pText><![CDATA[<div class="TableHeadingClass">Fig.9.11: A Topology to Implement SDN]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[<ol>
+  <li value="1">When an HTTP request comes, it is first forwarded to Firewall 1 (FW1).</li>
+  <li>From the Firewall 1, it is sent to Intrusion Detection System 1 (IDS1).</li>
+  </ol>]]></pText>
+    </PageText>
+      </PageData>
+</main>
